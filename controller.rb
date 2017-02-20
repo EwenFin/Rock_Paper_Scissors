@@ -9,3 +9,7 @@ get '/play/:hand1/:hand2' do
   erb(:result)
   # return "#{game.play}"
 end
+
+get '/' do
+  erb(:home)
+end
